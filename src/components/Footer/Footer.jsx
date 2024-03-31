@@ -12,7 +12,7 @@ const Footer = () => {
 
   return (
     <footer className="footer navbar-static-bottom">
-      <Container className="d-flex flex-column align-items-center" >
+      <Container className="d-flex flex-column align-items-center">
         <span className="back-to-top">
           <Link to="hero" smooth duration={1000}>
             <i className="fa fa-angle-up fa-2x" aria-hidden="true" />
@@ -25,7 +25,7 @@ const Footer = () => {
               return (
                 <a
                   key={id}
-                  href={url || 'https://www.linkedin.com/in/ritik-patidar/'}
+                  href={url || ''}
                   rel="noopener noreferrer"
                   target="_blank"
                   aria-label={name}
@@ -36,7 +36,7 @@ const Footer = () => {
             })}
         </div>
         <hr />
-        <p className='mt-2'>@Ritik-Patidar</p>
+        <p className="mt-2">@Abhinav-Patidar</p>
       </Container>
     </footer>
   );
